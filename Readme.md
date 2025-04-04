@@ -1,10 +1,10 @@
-Real-Time Ticket Management System
-
-Overview
+**Overview**
 
 The Real-Time Ticket Management System is a Java-based application designed to facilitate the efficient management of tickets in a shared pool. The system supports interactions between multiple vendors and customers, ensuring seamless ticket allocation and addition in real-time. It features both a Graphical User Interface (GUI) and Command-Line Interface (CLI), providing flexibility for users.
 
-Features
+--------------------------------------------------------------------
+
+**Features**
 
 
 Shared Ticket Pool: Centralized management of tickets.
@@ -17,8 +17,10 @@ Multi-threading Support: Vendors and customers operate as threads for real-time 
 
 Logging: Logs all vendor and customer actions for traceability.
 
+--------------------------------------------------------------------
 
-Technologies Used
+**Technologies Used**
+
 
 Java: Core programming language.
 
@@ -28,10 +30,12 @@ Angular: Frontend framework for the GUI.
 
 Maven: Dependency management.
 
+--------------------------------------------------------------------
 
-Installation
+**Installation**
 
-Prerequisites
+
+**Prerequisites**
 
 Java JDK 17 or later
 
@@ -41,8 +45,9 @@ Maven
 
 An IDE such as IntelliJ IDEA or Visual Studio Code
 
+--------------------------------------------------------------------
 
-Setup
+**Setup**
 
 
 Extract the project files to a desired location on your machine.
@@ -58,8 +63,9 @@ Build and run the Spring Boot application:
 mvn clean install
 mvn spring-boot:run
 
+--------------------------------------------------------------------
 
-Frontend Setup (Angular):
+**Frontend Setup (Angular):**
 
 Open a new terminal and navigate to the frontend directory:
 
@@ -70,9 +76,9 @@ Install dependencies and run the Angular application:
 npm install
 ng serve
 
+--------------------------------------------------------------------
 
-
-Usage
+**Usage**
 
 Starting the Application
 
